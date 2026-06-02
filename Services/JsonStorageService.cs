@@ -12,7 +12,7 @@ namespace TaskManagerDashboard.Services
 {
     public class JsonStorageService : IStorageService
     {
-        private readonly string _filePath = "tasks.json";
+        private readonly string _filePath = "tasks.json";  //TaskManagerDashboard\TaskManagerDashboard\bin\Debug Json stored in this path
 
         public async Task SaveAsync(List<TaskItem> tasks)
         {
